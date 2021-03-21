@@ -1,0 +1,41 @@
+body {
+    font: 100% 宋体， 新宋体;
+    background: #666666;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000000;
+}
+
+#main-content {
+    margin: 0 200px;
+    padding: 0 10px;
+}
+
+#container {
+    position: relative;
+    width: 780px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    text-align: left;
+}
+
+#sidebar-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    background: #EBEBEB;
+    padding: 15px 10px 15px 20px;
+}
+
+#sidebar-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    background: #EBEBEB;
+    padding: 15px 10px 15px 10px;
+}
+
