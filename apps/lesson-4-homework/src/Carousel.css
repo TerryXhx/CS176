@@ -1,0 +1,48 @@
+.Carousel {
+    width: 100%;
+    position: relative;
+}
+
+.container {
+    transform: translate3d(0,0,0);
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: ease;
+    position: relative;
+    height: 800px;
+}
+
+.item {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.btn-prev {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 80px;
+    height: 30px;
+    background: #fff;
+}
+
+.btn-next {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 80px;
+    height: 30px;
+    background: #fff;
+}
