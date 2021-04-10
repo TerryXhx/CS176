@@ -59,7 +59,7 @@ function Carousel(props) {
 
     return ( 
         <div className="Carousel">
-            <div className="container" ref={container} {...bind(1)}>
+            <div className="container" ref={container}>
                 {
                     React.Children.map(
                         props.children,
