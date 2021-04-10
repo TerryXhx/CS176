@@ -57,17 +57,6 @@ function Carousel(props) {
         handleChangeIndex(index === total + 1 ? 1 : index + 1);
     };
 
-    const bind = useDrag(({ active, movement: [mx], direction: [xDir], distance, cancel }) => {
-        // if (active && distance > window.innerWidth / 2)
-        //     cancel((index.current = clamp(index.current + (xDir > 0 ? -1 : 1), 0, pages.length - 1)))
-        // set((i) => {
-        //     if (i < index.current - 1 || i > index.current + 1) return { display: 'none' }
-        //     const x = (i - index.current) * window.innerWidth + (active ? mx : 0)
-        //     const scale = active ? 1 - distance / window.innerWidth / 2 : 1
-        //     return { x, scale, display: 'block' }
-        // })
-    })
-
     return ( 
         <div className="Carousel">
             <div className="container" ref={container} {...bind(1)}>
