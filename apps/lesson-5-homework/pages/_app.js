@@ -53,7 +53,7 @@ function compute_comment(data) {
     return str_cnt;
 }
 
-function load(data) {
+function loadData(data) {
   switch (data.single_mode) {
     case false:
       let time_diff = compute_time_diff(data.behot_time * 1000);
@@ -175,7 +175,13 @@ export default function MyApp() {
       <TopBar />
       <div className="main-content">
         <MainLeft />
-        <MainMid />
+        <MainMid>
+          {
+            state.list.map((data) => {
+              return loadData(data);
+            })
+          }
+        </MainMid>
         <MainRight />
       </div>
     </div>
