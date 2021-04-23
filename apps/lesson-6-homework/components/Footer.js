@@ -16,8 +16,8 @@ function Footer(){
                 <i className="fa fa-step-backward" />
                 <i className="fa fa-pause" />
                 <i className="fa fa-step-forward" />
-                <i className="fa fa-repeat" />
-                <i className="fa fa-random" />
+                <i className={`fa fa-repeat hide`} />
+                <i className={`fa fa-random hide`} />
             </div>
         </footer>
     );

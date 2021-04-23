@@ -41,4 +41,8 @@
     .currentSong {
         flex: 0 0;
     }
+
+    .hide {
+        display: none;
+    }
 }
