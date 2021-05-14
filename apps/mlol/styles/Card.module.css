@@ -1,0 +1,95 @@
+.root {
+    padding: 0 8px;
+    content-visibility: auto;
+}
+
+.title {
+    font-size: 0.9rem;
+    color:black;
+    margin: 2px 2px 2px 0;
+    font-weight: 400;
+    letter-spacing: 0.5pt;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.content {
+    max-width: 100%;
+    flex: 1 0 66%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.desc {
+    display: flex;
+    margin-left: 0;
+    margin-right: 4px;
+}
+
+.pic {
+    flex: 0 0 34%;
+    display: flex;
+    align-items: center;
+}
+
+.pic > div {
+    width: 100%;
+    padding-top: 60%;
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.pic > div > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.anchor {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.detail {
+    padding: 7px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardDesc {
+    display: inline-block;
+    height: 12px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.cardDesc text {
+    fill: grey;
+}
+
+.tag {
+    width: 32px;
+    height: 13px;
+    display: inline-block;
+}
+
+.tag rect {
+    stroke: grey;
+    fill: none;
+    stroke-width: 1px;
+}
+
+.tag text {
+    fill: grey;
+}
