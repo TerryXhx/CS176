@@ -2,7 +2,7 @@
 
 ## 简介
 
-本次项目尝试复刻掌上英雄联盟手机客户端`关注`页，并可实现向二级页面的跳转。
+本次项目尝试复刻掌上英雄联盟手机客户端`推荐`页，并可实现向二级页面的跳转。
 
 ## 运行
 
@@ -18,7 +18,7 @@ npm run dev
 
 ## 组件划分
 
-#### 关注页
+#### 推荐页
 
 - AppBar
 - Tabs
@@ -35,9 +35,9 @@ npm run dev
 
 ## 展示
 
-#### 关注页
+#### 推荐页
 
-![res1](https://terry-xhx.oss-cn-shanghai.aliyuncs.com/img/res1.png)
+![res11](https://terry-xhx.oss-cn-shanghai.aliyuncs.com/img/res11.png)
 
 #### 二级页面
 
