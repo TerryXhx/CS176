@@ -4,12 +4,14 @@
 
 .toolBar {
     padding: 0;
+    display: flex;
 }
 
 .icons {
     position: relative;
     display: flex;
     flex-direction: row-reverse;
+    flex-grow: 1;
 }
 
 .gameIcon {
@@ -24,4 +26,10 @@
 
 .gridIcon {
     display: flex;
+}
+
+@media screen and (max-width: 300px) {
+    .icons {
+        display: none;
+    }
 }

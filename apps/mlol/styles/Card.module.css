@@ -93,3 +93,9 @@
 .tag text {
     fill: grey;
 }
+
+@media screen and (max-width: 300px) {
+    .pic {
+        display: none;
+    }
+}

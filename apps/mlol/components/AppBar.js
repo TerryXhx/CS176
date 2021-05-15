@@ -18,6 +18,7 @@ export default function AppBar() {
           <Subject />
         </IconButton>
         <TextField
+          style={{flexGrow: "5"}}
           id="input-with-icon-textfield"
           variant="filled"
           placeholder="云顶第五赛季"
