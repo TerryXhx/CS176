@@ -1,34 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CS176 Project - mlol
 
-## Getting Started
+## 简介
 
-First, run the development server:
+本次项目尝试复刻掌上英雄联盟手机客户端`关注`页，并可实现向二级页面的跳转。
 
-```bash
+## 运行
+
+```
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 功能支持
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- SSR ： 通过`next.js`进行服务端渲染
+  - material-ui icon及组件可在js禁用情况下正确加载样式
+  - *.module.css中的样式无法在js禁用情况下加载
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 组件划分
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+#### 关注页
 
-## Learn More
+- AppBar
+- Tabs
+- Carousel
+- Card
+- BottomBar
 
-To learn more about Next.js, take a look at the following resources:
+#### 二级页面
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Article
+  - ArticleHeader
+    - ArticleAuthor
+  - ArticleContent
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 展示
 
-## Deploy on Vercel
+#### 关注页
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![res1](https://terry-xhx.oss-cn-shanghai.aliyuncs.com/img/res1.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### 二级页面
+
+![res2](https://terry-xhx.oss-cn-shanghai.aliyuncs.com/img/res2.png)
+

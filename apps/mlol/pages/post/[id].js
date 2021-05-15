@@ -4,10 +4,10 @@ import { useRouter } from "next/router";
 
 import Article from "../../components/Article/Article";
 
-export default function Home({ datas }) {
+export default function Home({ articlesData }) {
   const router = useRouter();
   const { id } = router.query;
-  const datum = datas[id];
+  const datum = articlesData[id];
 
   return (
     <div>
@@ -24,6 +24,6 @@ export const getServerSideProps = async () => {
   let data = await res.json()
 
   return { 
-      props: { datas: data.data }
+      props: { articlesData: data.data }
   }
 }

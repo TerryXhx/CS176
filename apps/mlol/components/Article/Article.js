@@ -9,7 +9,7 @@ export default function Article(props) {
       content = datum["content"];
   } else {
     var author = "",
-      title = "",
+      title = "Loading",
       content = "";
   }
 

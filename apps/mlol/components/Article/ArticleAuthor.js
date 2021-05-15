@@ -13,9 +13,6 @@ export default function ArticleAuthor(props) {
         </Avatar>
         <div className={styles.name}>
           <p>{name}</p>
-          {/* <p>
-            <CardDescription text={remark} />
-          </p> */}
         </div>
       </div>
       <Button
